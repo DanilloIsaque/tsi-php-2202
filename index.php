@@ -74,4 +74,9 @@ switch($dia){
                             echo "<br>";
                             echo "algo deu errado";
                         }
-?>
+
+
+//fim condicionais
+
+$diasemana[0]='domingo'
+$diasemana[1]='segunda'
