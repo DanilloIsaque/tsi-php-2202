@@ -78,5 +78,5 @@ switch($dia){
 
 //fim condicionais
 
-$diasemana[0]='domingo'
-$diasemana[1]='segunda'
+$diasemana[0]='domingo';
+$diasemana[1]='segunda';
