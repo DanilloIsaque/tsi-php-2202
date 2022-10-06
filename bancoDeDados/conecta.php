@@ -1,10 +1,12 @@
 <?php
 
-    $dsn='mysql:dbname=senac;host=localhost';
+    //dados para conectarmos no banco de dados
+    $dsn='mysql:dbname=senac;host=localhost;port=3307';
     $user= 'root';
     $pass = '';
 
-    $bd =new PDO($dsn.$user,$pass);
+    //conectamos ao banco de dados
+     $bd =new pdo($dsn,$user,$pass);
 
-    var_dump($bd);
+    
 ?>
