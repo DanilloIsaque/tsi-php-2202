@@ -1,4 +1,6 @@
 <?php
+//controle de acesso/sessao
+require '../controleDeSessao/controle.php';
 //buscando o codigo q nos conecta no banco de dad os
 require_once '../bancoDeDados/conecta.php';
 

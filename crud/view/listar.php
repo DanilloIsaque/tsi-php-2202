@@ -12,6 +12,23 @@
 <a href="formIncluir.php"><button class="btn">Novo Aluno</button></a>
 
 <?php 
+
+
+if (isset($atualizou)) {
+    if (!$atualizou) {
+        echo '<div class "alert alert-danger" role="alert">
+        Aluno não atualizado!
+        </div>';
+    }
+    else
+    {
+         echo '<div class="alert alert-success" role="alert">
+            Aluno Atualizado com sucesso!
+            </div>';
+ }
+}
+
+
 //mensagem de sucessou ou falha na hora de apagar o aluno
 
 if (isset($gravou)) {

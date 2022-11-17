@@ -14,7 +14,7 @@ $stmt->execute();
 
 $aluno = $stmt->fetch(PDO::FETCH_ASSOC);
 
-var_dump($aluno);
+//var_dump($aluno); 
 
 //MOSTRAR UM FORMULARIO HTML PARA O USUARIO *LICAO
 //com os dados selecionados

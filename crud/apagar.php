@@ -1,4 +1,6 @@
 <?php
+//controle de acesso/sessao
+require '../controleDeSessao/controle.php';
 //buscamos o codigo que coneca no sgbd
 require_once '../bancoDeDados/conecta.php';
 //apenas para ficar mais facil de trabalhar

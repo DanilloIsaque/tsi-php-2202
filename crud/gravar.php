@@ -1,10 +1,16 @@
 <?php
 //buscamos o código que conecta ao SGBD
-
+//controle de acesso/sessao
+require_once '../controleDeSessao/controle.php';
 require_once '../bancoDeDados/conecta.php';
 //include_onde(); não gera erro fatal se não existir 
 //na linha 4 estamos trazendo todo o código de
 //../bancoDeDados/conecta.php' para este código
+
+
+
+
+
 
 
 //dados provenientes do form html
